@@ -1,0 +1,9 @@
+.debug {
+  background-color: rgba(127, 255, 212, 0.5);
+  border: 1px solid black;
+  min-height: 80px;
+}
+
+.gp-jumbotron {
+  height: 500px;
+}
