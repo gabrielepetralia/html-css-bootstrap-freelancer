@@ -142,7 +142,7 @@ section#about {
   background-color: #1abc9c;
 }
 
-/* portfolio */
+/* boxes */
 section .box {
   position: relative;
   border-radius: 10px;
@@ -160,5 +160,31 @@ section .box:hover::after {
   background-color: rgba(0, 207, 138, 0.5);
 }
 
+/* form */
+.gp-form input,
+.gp-form textarea {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
 
+.gp-form input::placeholder,
+.gp-form textarea::placeholder {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.gp-form button {
+  background-color: #1abc9c;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.gp-form input:focus,
+.gp-form textarea:focus {
+  box-shadow: 0 1px 0 0 rgba(13, 110, 253, .25);
+}
 
