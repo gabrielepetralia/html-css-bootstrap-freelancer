@@ -13,6 +13,10 @@ img {
   max-width: 100%;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 .gp-container {
   width: 60%;
   margin: 0 auto;
@@ -49,6 +53,25 @@ img {
 
 .star .star-segment.seg-petrolium {
   background-color: #2c3e50;
+}
+
+.gp-btn {
+  width: auto;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.gp-btn:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.gp-btn:hover span,
+.gp-btn:hover i {
+  color: #1abc9c;
 }
 
 /* HEADER */
@@ -119,6 +142,7 @@ section#about {
   background-color: #1abc9c;
 }
 
+/* portfolio */
 section .box {
   position: relative;
   border-radius: 10px;
@@ -135,4 +159,6 @@ section .box:hover::after {
   height: 100%;
   background-color: rgba(0, 207, 138, 0.5);
 }
+
+
 
