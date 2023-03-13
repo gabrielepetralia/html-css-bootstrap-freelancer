@@ -5,12 +5,110 @@
   min-height: 80px;
 }
 
+body {
+  font-family: 'Almarai', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 .gp-container {
   width: 60%;
   margin: 0 auto;
 }
 
+.star {
+  margin: 20px 0;
+}
+
+.star i {
+  font-size: 1.8rem;
+  margin: 0 1.8vw;
+}
+
+.star i.star-white {
+  color: white;
+}
+
+.star i.star-petrolium {
+  color: #2c3e50;
+}
+
+.star .star-segment {
+  display: inline-block;
+  content:"";
+  width: calc(40px + 6.8vw);
+  height: 4px;
+  border-radius: 10px;
+}
+
+.star .star-segment.seg-white {
+  background-color: white;
+}
+
+.star .star-segment.seg-petrolium {
+  background-color: #2c3e50;
+}
+
+/* HEADER */
+header {
+  background-color: #2c3e50;
+  min-height: 90px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: white;
+}
+
+.hamburger-btn {
+  border-color: white;
+}
+
+.hamburger-btn .hamburger-icon {
+  filter: invert(1);
+}
+
+.gp-li a {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.gp-li a:hover {
+  color: white;
+}
+
+
 /* JUMBOTRON */
 .gp-jumbotron {
-  height: 500px;
+  background-color: #1abc9c;
 }
+
+.gp-jumbotron .image {
+  width: 275px;
+  margin-bottom: 22px;
+}
+
+.gp-jumbotron #jumbo-title {
+  font-size: calc(1.8rem + 1.6vw);
+  font-weight: bold;
+}
+
+.gp-jumbotron span {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/* MAIN */
+section .section-title {
+  font-size: calc(1.5rem + 1.6vw);
+  font-weight: bold;
+}
+
+
